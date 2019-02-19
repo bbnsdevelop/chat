@@ -1,0 +1,18 @@
+Material são component, ao usar cada component será necessário importá-lo no modulo
+
+GraphQL
+
+è uma linguagem de consulta a dados em API'S desenvolvida pelo facebook.
+
+As contultas são interpretadas em tempo de execução no servidor usando um sistema de tipos
+que você define para ses dados.
+
+Caracteristicas
+
+- Permite o Client especificar exatamente os dados que precisa.
+- facilita buscar dados de várias fontes (vários bancos de dados, Outras API'S, Sistemas legados)
+- Usa um sistema de tipos para definir os dados
+
+Obs.: o GraphQl não está vincculado a qualquer banco de dados ou sistema armazenamento específico.
+
+

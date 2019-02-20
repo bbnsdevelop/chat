@@ -16,3 +16,57 @@ Caracteristicas
 Obs.: o GraphQl não está vincculado a qualquer banco de dados ou sistema armazenamento específico.
 
 
+Conceitos básicos
+
+TYPE SYSTEM: Sistema de tipos que usamos para descrever nossos dados
+
+QUERIES: Obtém dados da nossa API (read - semelhante ao get da arquitetura RESTFULL)
+
+MUTATIONS: faz alterações nos dados da nossa API (write)
+
+SUBSCRIPTIONS: permite ouvir mudanças em 'tempo real' (real-time)
+
+SCHEMA: define o 'Esquema' da nossa API, pense nele com um container para todos os tipos da nossa API (SDL)
+
+
+--------------------------
+
+GRAPHCOLL
+
+É um Self-hosted backend as a service (BaaS) baseado no GraphQL
+
+
+Recursos
+
+- Mapeamento de banco de dados
+- Serverless functions
+- Realtime API com graphQL SUBSCRIPTIONS
+- Autenticação JWT
+- Sistema de permissões
+- Planos pagos e gratuito
+- Vários templates prontos (módulos)
+
+Caracteristicas
+
+backend opinativo
+- opinativo
+- Open source
+- banco de dados SQL (Aurora ou MySQl)
+- Camada de banco de dados completamente abstraída
+- Não necessita de um ORM (Object Relational Mapper)
+- Trabalha com Angular, React, Vue, etc
+
+Arquitetura
+
+Database: AWS Aurora
+Servless Function: AWS lambda
+message Queue: RabbitMQ
+File Storage: AWS S3
+
+http://bit.ly/gcarchitecture
+
+
+
+
+
+
